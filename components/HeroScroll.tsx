@@ -2,7 +2,6 @@
 import React from "react";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import Image from "next/image";
-import { BackgroundBeams } from "./ui/background-beams";
  
 export function HeroScrollDemo() {
   return (
@@ -13,7 +12,7 @@ export function HeroScrollDemo() {
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
               A Glimpse into a typical <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-[#ff686b]">
                 CodeDay
               </span>
             </h1>

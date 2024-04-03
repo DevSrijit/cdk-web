@@ -2,7 +2,6 @@
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion, MotionValue } from "framer-motion";
 import { BackgroundBeams } from "./background-beams";
-import { Bakbak_One } from "next/font/google";
 
 export const ContainerScroll = ({
   titleComponent,
@@ -43,7 +42,7 @@ export const ContainerScroll = ({
       ref={containerRef}
     >
       <div className="w-full relative">
-        <BackgroundBeams />
+        <BackgroundBeams className="w-full"/>
       <div
         className="py-10 md:py-40 w-full relative"
         style={{
