@@ -13,7 +13,7 @@ export default function SpotlightPreview() {
   return (
     <>
       <div id="main-section" className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-      <FloatingNav navItems={navItems} className="md:sticky md:top-0"/>
+      <FloatingNav navItems={navItems} />
         <div className="w-full absolute inset-0 h-screen">
           <SparklesCore
             id="tsparticlesfullpage"
